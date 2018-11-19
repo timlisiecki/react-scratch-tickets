@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #353535;
+}
+
+p {
+  color: white;
+  font-weight: 900;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.ticket-value {
+  position: relative;
+  top: 0;
+  left: 0;
+  float: left;
+  color: white;
+  font-weight: 900;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.title {
+  color: gold;
+  font-weight: 900;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.instructions {
+  display: inline-flex;
+  padding: 15px;
+}
+
+.winning-symbols img {
+  height: 50px;
+}
+
+.btn {
+  margin-top: 25px;
+  border-radius: 15px;
+}
+
+.wallet {
+  margin: 20px 0 0 0;
+  font-size: 28px;
+}
+
+.wallet-amount, .prize-amount {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: gold;
+  background-image: url("../images/brushed-alum-dark.png");
+  border-radius: 15px;
+}
+
+#play-again, #reset-game {
+  margin-left: auto;
+}
+
+#current-amount {
+  color: green;
+}
+
+#current-prize {
+  color: blue;
+}
+
+.scratchpad {
+  width: 100px;
+  height: 100px;
+  margin:0 auto;
+}
+
+.scratchpad img {
+  padding: 20%;
+  background-color: #ececec;
+}
+
+#prize.scratchpad {
+  width: 300px;
+  height: 100px;
+  margin:0 auto;
+  border: 5px solid black;
+}
+
+#prize.scratchpad img {
+  padding: 0;
+  background-color: #ececec;
+}
+
+.scratch-container {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0 auto;
+  padding:  15px;
+  background-color: black;
+  width: 500px;
+  border-radius: 15px;
+  border: 5px solid gold;
+}
+
+.prize-container {
+  margin: 0 auto;
+  padding:  15px;
+}
+
+#ticket-container {
+  background-color: green;
+  width: 750px;
+  margin-top: 50px;
+  padding: 25px;
+  border: 5px solid gold;
+  background-image: url("../images/arabesque.png");
+}
